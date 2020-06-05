@@ -10,7 +10,7 @@ if ( ! defined('ABSPATH') ) {
 /**
  * Define Constants
  */
-define( 'CHILD_THEME_NAME', 'Child' );
+define( 'CHILD_THEME_NAME', 'usc-theme' );
 define( 'CHILD_THEME_VERSION', '1.0.0' );
 
 require get_stylesheet_directory() . '/functions/cleanup.php';

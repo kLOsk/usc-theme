@@ -23,3 +23,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html)
+
+## Credits
+Thanks to Simon Padbury for some of his code used in https://github.com/SimonPadbury/b4st

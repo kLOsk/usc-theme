@@ -1,9 +1,9 @@
 {
   "name": "Universal SCSS Child Theme",
   "version": "1.0.0",
-  "description": "*Version 2.7.1*",
+  "description": "",
   "repository": {
-    "url": "https://github.com/SimonPadbury/b4st"
+    "url": "https://github.com/kLOsk/usc-theme"
   },
   "main": "",
   "dependencies": {},
@@ -23,12 +23,10 @@
   "keywords": [
     "WordPress",
     "Theme",
-    "Bootstrap 4",
-    "Font Awesome 5",
     "Gulp",
     "Sass",
     "SCSS"
   ],
   "author": "Daniel Klose",
-  "license": "Unlicense"
+  "license": "GPLv2"
 }
