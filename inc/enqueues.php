@@ -35,7 +35,7 @@ if ( ! function_exists('usct_enqueues') ) {
 		//wp_register_script('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', false, '4.4.1', true);
 		//wp_enqueue_script('bootstrap4');
 
-		wp_register_script(CHILD_THEME_NAME, get_template_directory_uri() . '/assets/dist/js/scripts.js', false, null, true);
+		wp_register_script(CHILD_THEME_NAME, get_stylesheet_directory_uri() . '/assets/dist/js/scripts.js', false, null, true);
 		wp_enqueue_script(CHILD_THEME_NAME);
 
 	}

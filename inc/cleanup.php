@@ -6,7 +6,7 @@
 // Less stuff in <head>
 
 if ( ! function_exists('usct_cleanup_head') ) {
-  function b4st_cleanup_head() {
+  function usct_cleanup_head() {
     remove_action('wp_head', 'wp_generator');
     remove_action('wp_head', 'rsd_link');
     remove_action('wp_head', 'wlwmanifest_link');
