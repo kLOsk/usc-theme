@@ -16,7 +16,7 @@ if ( ! function_exists('usct_enqueues') ) {
 		//wp_register_style('fontawesome5', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css', false, '5.11.2', null);
 		//wp_enqueue_style('fontawesome5');
 
-		wp_register_style(CHILD_THEME_NAME, get_stylesheet_directory_uri() . '/assets/dist/css/style.css', false, CHILD_THEME_VERSION, 'all');
+		wp_register_style(CHILD_THEME_NAME, get_stylesheet_directory_uri() . '/assets/dist/css/style.min.css', false, CHILD_THEME_VERSION, 'all');
 		wp_enqueue_style(CHILD_THEME_NAME);
 
     //wp_enqueue_style( 'astra-child-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_ASTRA_CHILD_VERSION, 'all' );
@@ -35,7 +35,7 @@ if ( ! function_exists('usct_enqueues') ) {
 		//wp_register_script('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', false, '4.4.1', true);
 		//wp_enqueue_script('bootstrap4');
 
-		wp_register_script(CHILD_THEME_NAME, get_stylesheet_directory_uri() . '/assets/dist/js/scripts.js', false, null, true);
+		wp_register_script(CHILD_THEME_NAME, get_stylesheet_directory_uri() . '/assets/dist/js/scripts.min.js', false, null, true);
 		wp_enqueue_script(CHILD_THEME_NAME);
 
 	}

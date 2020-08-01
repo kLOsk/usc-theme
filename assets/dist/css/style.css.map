@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAAA;;ECEE","file":"style.css","sourcesContent":["/*!\n * usct Style\n */\n\n@import \"partials/base\";\n@import \"partials/footer\";\n","/*!\n * usct Style\n */\n"]}
+{"version":3,"sources":["style.scss","style.css","partials/footer.scss"],"names":[],"mappings":"AAAA;;ECEE,CCFF,OACE,UDIF","file":"style.css","sourcesContent":["/*!\n * usct Style\n */\n\n@import \"partials/base\";\n@import \"partials/footer\";\n","/*!\n * usct Style\n */\nfooter {\n  color: black;\n}\n","footer {\n  color: black;\n}\n"]}
